@@ -18,5 +18,6 @@ end
 
 table = Table.new
 table.rows = rows
+table.headers = true
 
 puts table
