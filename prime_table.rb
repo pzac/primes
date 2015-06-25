@@ -3,6 +3,7 @@ require_relative 'prime_generator'
 class PrimeTable
   def initialize(items = 10)
     @items = items
+    @items = 10 if @items < 1
     @generator = PrimeGenerator.as_enum
   end
 
