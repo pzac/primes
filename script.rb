@@ -1,6 +1,6 @@
 require 'optparse'
-require_relative 'prime_table'
-require_relative 'table'
+require_relative 'lib/prime_table'
+require_relative 'lib/table'
 
 size = 10
 
